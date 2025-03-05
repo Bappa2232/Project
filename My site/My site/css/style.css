@@ -1,0 +1,1157 @@
+body{
+    position: relative;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Color Panel Area %%%%%%%%%%%%%%%%%%%%%%%%%*/
+.demo-panel-box{
+   position: fixed;
+   height: 120px;
+   width: 120px;
+   display: block;
+   margin-top: 180px;
+   left: -120px;
+   background:#2C3E50;
+   text-align: center;
+   z-index: 9999;
+}
+.color-panel-box {
+	margin-top: 20px;
+	padding: 5px;
+}
+.spainer-buttom {
+	height: 50px;
+	width: 50px;
+	background: #009270;
+	display: block;
+	position: absolute;
+	right: -50px;
+	top: 50px;
+        cursor: pointer;
+	z-index: 999;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	margin-top: -12px;
+	padding-top: 7px;
+	border-radius: 0px 10px 10px 0px;
+}
+.color-panel-box span{
+   width: 30px;
+   height: 30px;
+   margin-left: 20px;
+   display: block;
+   border-radius: 50%;
+   float: left;
+   margin-bottom: 15px; 
+   
+}
+.color-panel-box span.green-color{
+    background: #009270;
+}
+.color-panel-box span.purple-color{
+    background:#6893FF;
+}
+.color-panel-box span.yellow-color{
+    background: #EFAA15;
+;
+}
+.color-panel-box span.red-color{
+    background: #FF5555;
+}
+/*==================== For Green Color =================*/
+.green-color-bar .spainer-buttom{background-color:#009270;}
+.green-color-bar #brand{color:#009270;}
+.green-color-bar .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    border-color: #009270;}
+.green-color-bar #media-link-1{border: 2px solid #009270;}
+.green-color-bar #media-link-2{border: 2px solid #009270;}
+.green-color-bar #media-link-3{border: 2px solid #009270;}
+.green-color-bar #media-link-4{border: 2px solid #009270;}
+.green-color-bar #media-link-5{border: 2px solid #009270;}
+.green-color-bar .timeline > li .timeline-image{background-color:#009270;}
+.green-color-bar .timeline-heading-first {color:#009270;}
+.green-color-bar .subheading{color:#009270;}
+.green-color-bar #icon{color:#009270;}
+.green-color-bar .progress-bar{background-color:#009270;}
+.green-color-bar .progress.green .progress-bar::after {border-bottom-color:#009270;}
+.green-color-bar .progress.pink .progress-bar::after {border-bottom-color:#009270;}
+.green-color-bar #download{background-color:#009270;}
+.green-color-bar #hireme{background-color:#009270;}
+.green-color-bar.portfolio-controllers .filter-btn {background-color: #009270;}
+.green-color-bar.main_counter_area .main_counter_content .single_counter {color: #009270;}
+.green-color-bar.fa-4x {color: #009270;}
+.green-color-bar #fade-quote-carousel.carousel .carousel-indicators > li {background-color:#009270;}
+.green-color-bar #send {background-color: #009270; border-color: #009270;}
+.green-color-bar #media-link-6 {border: 2px solid #009270;}
+.green-color-bar #media-link-7 {border: 2px solid #009270;}
+.green-color-bar #media-link-8 {border: 2px solid #009270;}
+.green-color-bar #media-link-9 {border: 2px solid #009270;}
+
+/*==================== For purple Color =================*/
+.purple-color-bar .spainer-buttom{background-color:#6893FF;}
+.purple-color-bar #brand{color:#6893FF;}
+.purple-color-bar .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    border-color:#6893FF;}
+.purple-color-bar #media-link-1{border: 2px solid #6893FF;}
+.purple-color-bar #media-link-2{border: 2px solid #6893FF;}
+.purple-color-bar #media-link-3{border: 2px solid #6893FF;}
+.purple-color-bar #media-link-4{border: 2px solid #6893FF;}
+.purple-color-bar #media-link-5{border: 2px solid #6893FF;}
+.purple-color-bar .timeline > li .timeline-image{background-color:#6893FF;}
+.purple-color-bar .timeline-heading-first {color:#6893FF;}
+.purple-color-bar .subheading{color:#6893FF;}
+.purple-color-bar #icon{color:#6893FF;}
+.purple-color-bar .progress-bar{background-color:#6893FF;}
+.purple-color-bar .progress.green .progress-bar::after {border-bottom-color:#6893FF;}
+.purple-color-bar .progress.pink .progress-bar::after {border-bottom-color:#6893FF;}
+.purple-color-bar #download{background-color:#6893FF;}
+.purple-color-bar #hireme{background-color:#6893FF;}
+.purple-color-bar .portfolio-controllers .filter-btn {background-color: #6893FF;}
+.purple-color-bar .main_counter_area .main_counter_content .single_counter {color:#6893FF;}
+.purple-color-bar .fa-4x {color:#6893FF;}
+.purple-color-bar #fade-quote-carousel.carousel .carousel-indicators > li {background-color:#6893FF;}
+.purple-color-bar #send {background-color:#6893FF; border-color:#6893FF;}
+.purple-color-bar #media-link-6 {border: 2px solid #6893FF;}
+.purple-color-bar #media-link-7 {border: 2px solid #6893FF;}
+.purple-color-bar #media-link-8 {border: 2px solid #6893FF;}
+.purple-color-bar #media-link-9 {border: 2px solid #6893FF;}
+
+/*==================== For yellow Color =================*/
+.yellow-color-bar .spainer-buttom{background-color:#EFAA15;}
+.yellow-color-bar #brand{color:#EFAA15;}
+.yellow-color-bar .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    border-color:#EFAA15;}
+.yellow-color-bar #media-link-1{border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-2{border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-3{border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-4{border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-5{border: 2px solid #EFAA15;}
+.yellow-color-bar .timeline > li .timeline-image{background-color:#EFAA15;}
+.yellow-color-bar .timeline-heading-first {color:#EFAA15;}
+.yellow-color-bar .subheading{color:#EFAA15;}
+.yellow-color-bar #icon{color:#EFAA15;}
+.yellow-color-bar .progress-bar{background-color:#EFAA15;}
+.yellow-color-bar .progress.green .progress-bar::after {border-bottom-color:#EFAA15;}
+.yellow-color-bar .progress.pink .progress-bar::after {border-bottom-color:#EFAA15;}
+.yellow-color-bar #download{background-color:#EFAA15;}
+.yellow-color-bar #hireme{background-color:#EFAA15;}
+.yellow-color-bar .portfolio-controllers .filter-btn {background-color: #EFAA15;}
+.yellow-color-bar .main_counter_area .main_counter_content .single_counter {color:#EFAA15;}
+.yellow-color-bar .fa-4x {color:#EFAA15;}
+.yellow-color-bar #fade-quote-carousel.carousel .carousel-indicators > li {background-color:#EFAA15;}
+.yellow-color-bar #send {background-color:#EFAA15; border-color:#EFAA15;}
+.yellow-color-bar #media-link-6 {border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-7 {border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-8 {border: 2px solid #EFAA15;}
+.yellow-color-bar #media-link-9 {border: 2px solid #EFAA15;}
+/*==================== For Red Color =================*/
+.red-color-bar .spainer-buttom{background-color:#FF5555;}
+.red-color-bar #brand{color:#FF5555;}
+.red-color-bar .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    border-color:#FF5555;}
+.red-color-bar #media-link-1{border: 2px solid #FF5555;}
+.red-color-bar #media-link-2{border: 2px solid #FF5555;}
+.red-color-bar #media-link-3{border: 2px solid #FF5555;}
+.red-color-bar #media-link-4{border: 2px solid #FF5555;}
+.red-color-bar #media-link-5{border: 2px solid #FF5555;}
+.red-color-bar .timeline > li .timeline-image{background-color:#FF5555;}
+.red-color-bar .timeline-heading-first {color:#FF5555;}
+.red-color-bar .subheading{color:#FF5555;}
+.red-color-bar #icon{color:#FF5555;}
+.red-color-bar .progress-bar{background-color:#FF5555;}
+.red-color-bar .progress.green .progress-bar::after {border-bottom-color:#FF5555;}
+.red-color-bar .progress.pink .progress-bar::after {border-bottom-color:#FF5555;}
+.red-color-bar #download{background-color:#FF5555;}
+.red-color-bar #hireme{background-color:#FF5555;}
+.red-color-bar .portfolio-controllers .filter-btn {background-color: #FF5555;}
+.red-color-bar .main_counter_area .main_counter_content .single_counter {color:#FF5555;}
+.red-color-bar .fa-4x {color:#FF5555;}
+.red-color-bar #fade-quote-carousel.carousel .carousel-indicators > li {background-color:#FF5555;}
+.red-color-bar #send {background-color:#EFAA15; border-color:#FF5555;}
+.red-color-bar #media-link-6 {border: 2px solid #FF5555;}
+.red-color-bar #media-link-7 {border: 2px solid #FF5555;}
+.red-color-bar #media-link-8 {border: 2px solid #FF5555;}
+.red-color-bar #media-link-9 {border: 2px solid #FF5555;}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Menu Area %%%%%%%%%%%%%%%%%%%%%%%*/
+.navbar-custom {
+	border-color: transparent;
+	padding: 20px;
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+}
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 25px;
+        color: white;
+}
+#brand {
+	color: #009270;
+	font-size: 26px;
+	text-align: center;
+        text-transform: uppercase;
+        font-family: Kaushan Script;
+}
+#menuElement {
+	color:white;
+	font-size: 15px;
+	text-align: center;
+        font-family: Merienda One;
+	text-transform: uppercase;
+}
+#menuElement:hover {
+	color:#009270;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #009270;
+	background-color: #05121A;
+	border-bottom: 4px solid #009270;
+}
+
+header {
+  background-image: url('../image/Bappa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  height: 680px;
+}
+#typer {
+	margin-top: 300px;
+	text-align: center;
+}
+#am {
+	font-size: 28px;
+        font-family: Kaushan Script;
+}
+.typewrite {
+	color: white;
+	font-size: 40px;
+        font-family: Merienda One;
+}
+.typewrite:hover {
+	color: white;
+        text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+    .typewrite{
+        font-size: 24px;
+    }
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Slider Social-icon Area %%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.social-media {
+	margin-top: 30px;
+}
+#media-link-1 {
+	font-size: 16px;
+	padding: 9px;
+	border: 2px solid #009270;
+	width: 36px;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	height: 35px;
+}
+#media-link-1:hover{
+    background-color: #4867AA;
+    border-color: #4867AA;
+}
+#media-link-2{
+	font-size: 16px;
+	padding: 9px;
+	border: 2px solid #009270;
+	width: 36px;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	height: 35px;
+}
+#media-link-2:hover{
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+#media-link-3 {
+	font-size: 16px;
+	padding: 9px;
+	border: 2px solid #009270;
+	width: 36px;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	height: 35px;
+}
+#media-link-3:hover{
+    background-color: #007BB6;
+    border-color: #007BB6;
+}
+#media-link-4 {
+	font-size: 16px;
+	padding: 9px;
+	border: 2px solid #009270;
+	width: 36px;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	height: 35px;
+}
+#media-link-4:hover{
+    background-color:#D42E78 ;
+    border-color:#D42E78;
+}
+#media-link-5 {
+	font-size: 16px;
+	padding: 9px;
+	border: 2px solid #009270;
+	width: 36px;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	height: 35px;
+}
+#media-link-5:hover{
+    background-color:#00AFF0 ;
+    border-color:#00AFF0 ;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ About Me $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#About {
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
+#aboutme {
+	font-size: 19px;
+	line-height: 31px;
+	text-align: left;
+	font-family: Aclonic;
+}
+#download {
+	background-color: #009270;
+	border: none;
+	color: white;
+	padding: 13px 25px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 22px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-radius: 30px 30px 30px 30px;
+	width: 108px;
+	text-align: center;
+	padding-left: 21px;
+}
+#download:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#hireme {
+	background-color: #009270;
+	border: none;
+	color: white;
+	padding: 13px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 22px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-radius: 30px 30px 30px 30px;
+}
+#hireme:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@media screen and (max-width: 767px) {
+    #About{
+        margin-top: 30px;
+    }
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Education Area %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#Education {
+	background-color: #F9F7FA;
+}
+.row.text-center {
+	margin-top: 60px;
+}
+.text-uppercase {
+	font-family: Kaushan Script;
+}
+.secondHeading {
+	font-family: Merienda One;
+}
+#education-row {
+	margin-top: 61px;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color:#A6A6A6;
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+  background-color: white;
+}
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.fa-5x:hover{
+    color:white;
+    text-decoration: none;
+}
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 100;
+  background-color: #009270;
+  color: white;
+  border-radius: 100%;
+  border: 4px solid #FFFFFF;
+  text-align: center;
+}
+.fa-3x {
+	font-size: 3em;
+	color: white;
+	margin-top: 27px;
+}
+.fa-3x:hover {
+	color: white;
+        text-decoration: none;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-heading-first {
+  color: #009270;
+  font-family: Merienda One;
+}
+.subheading{
+    color: #009270;
+    font-family: Merienda One;
+}
+.text-muted {
+	color: black;
+	word-spacing: 6px;
+	font-size: 20px;
+	font-family: Bellefair;
+}
+/*###################### Education Responsive Area ####################*/
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    margin-left: -51px;
+  }
+  .fa-cab{
+      margin-top: 10px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Sarvices Area %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#Service {
+	margin-top: 60px;
+}
+#Service-Element {
+	margin-top: 60px;
+}
+#Service-Element-2 {
+	background-color: #F9F7FA;
+}
+#icon {
+	color: #009270;
+	margin-top: 30px;
+        text-decoration: none;
+}
+#Service-subHeading {
+	font-family: Merienda One;
+}
+#design-comment {
+	font-family: Bellefair;
+	font-size: 20px;
+        color: black;
+}
+/*################################# Process Bar Area #############################*/
+#MainProcess {
+	margin-top: 50px;
+}
+.progress-bar{
+    width:95%; 
+    background:#009270
+}
+#process-bar {
+	margin-top: 60px;
+        background-color: #F9F7FA;     
+}
+.progress-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #011627;
+    margin: 0 0 20px;
+}
+.progress{
+    height: 10px;
+    background: #cbcbcb;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-bottom: 21px solid transparent;
+    position: absolute;
+    top: -26px;
+    right: -12px;
+}
+.progress .progress-value{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+.progress.pink .progress-bar:after{
+    border-bottom-color: #009270;
+}
+.progress.green .progress-bar:after{
+    border-bottom-color: #009270;
+}
+.progress.yellow .progress-bar:after{
+    border-bottom-color: #009270;
+}
+.progress.blue .progress-bar:after{
+    border-bottom-color: #009270;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Work Area %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#Work {
+	margin-top: 60px;
+}
+.row.portfolio-controllers-container {
+	margin-top: 30px;
+}
+.portfolio-controllers-container{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.portfolio-controllers{
+	padding: 0px;
+	height: 100%;
+	display: inline-block;
+}
+.portfolio-controllers .filter-btn {
+	float: left;
+	padding: 10px 15px;
+	border: 2px solid;
+	outline: 0px;
+	margin: 0px 15px 15px 0px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	background-color: #009270;
+	color: white;
+        font-family: Merienda One;
+}
+.portfolio-controllers .filter-btn:hover{
+    border: 2px solid #009270;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.more-container{
+	margin-top: 40px;
+}
+.portfolio{
+	padding: 14px 7px;
+}
+.portfolio-image{
+	position: relative;
+	overflow: hidden;
+}
+.portfolio-image img{
+	width: 100%;
+	height: 100%;
+	transform : scale(1);
+	-webkit-transition : all 0.5s ease;
+	transition : all 0.5s ease;
+	position: relative;
+        cursor: pointer;
+}
+.portfolio-image:hover img{
+	transform : scale(1.2);
+	cursor: pointer;
+}
+.portfolio-image::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(34,35,40,0.5);
+}
+.work .caption{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	opacity: 0;
+	transform : scale(1.2);
+	-webkit-transition : all 0.5s ease;
+	transition : all 0.5s ease;
+	padding: 10px;
+	z-index: 999;
+}
+.caption-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.portfolio-image:hover .caption{
+	opacity: 1;
+	transform : scale(1);
+}
+.caption-content{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	/*background-color : rgba(0,204,204,0.8);*/
+	position: relative;
+}
+.portfolio-link{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.portfolio-link li{
+	float: left;
+	margin-right: 5px;
+}
+.portfolio-link li a i{
+	font-size: 25px;
+	border-radius: 2px;
+	-webkit-transition : all 0.3s linear;
+	transition : all 0.3s linear;
+}
+.portfolio-link li a i.fa-link{
+	padding: 10px 15px;
+}
+.portfolio-link li a i.fa-plus{
+	padding: 10px 17px;
+}
+.portfolio-item-title{
+	width: 90%;
+	height: 40px;
+	overflow: hidden;
+    font-size: 18px;
+   	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translateX(-50%);
+}
+.portfolio-item-title:after{
+	position: absolute;
+    bottom: 0;
+    left: 35%;
+    content: '';
+    width: 30%;
+    height: 2px;
+}
+
+.footer-bottom p{
+	text-align: center;
+}
+/*Xtra Large*/
+@media (min-width: 1200px){}
+/*Medium Device*/
+@media(min-width:992px){}
+/*Small Device*/
+@media(min-width:768px){}
+/*Xtra Small Device*/
+@media(max-width:767px){
+
+	.portfolio-controllers .filter-btn{
+		margin-bottom: 15px;
+		padding: 10px 12px;
+		margin-left: 10px;
+	}
+}
+
+
+/****************** Counter Area *******************/
+ body{
+    font-size:18px;
+    font-weight: 400;
+}
+.p-y-2 {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.p-y-3 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.main_counter_area{
+    background-size: cover;
+    overflow: hidden;
+}
+#counter {
+    margin-top: -45px;
+}
+.main_counter_area .main_counter_content .single_counter {
+    color: #009270;
+    font-family: Merienda One;
+}
+.main_counter_area .main_counter_content .single_counter i{
+    font-size:40px;
+}
+/*################################### Start Clients Area #####################################*/
+#Clients{
+    background-color: #F9F7FA;     
+}
+#cliends-area {
+	margin-top: 60px;
+}
+.fa-4x {
+	font-size: 4em;
+	color: #009270;
+}
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Comment{
+    color: black;
+    font-family: Bellefair;
+    font-size: 22px;
+}
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #009270;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+/*############################### Star Contact Area ######################################*/
+#Contact {
+    background-color: #222222;
+    background-image: url(../image/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+    padding: 30px 0PX;
+}
+#Contact .section-heading {
+    color: white;
+}
+#Contact .form-group {
+    margin-bottom: 25px;
+}
+#Contact .form-group input,
+#Contact .form-group textarea {
+    padding: 20px;
+}
+#Contact .form-group input.form-control {
+    height: auto;
+}
+#Contact .form-group textarea.form-control {
+    height: 236px;
+}
+#Contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+#Contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+.gellary_bg_none img{
+	width: 100%;
+	height: 250px;
+}
+#Contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#Contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#Contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+#Contact .text-danger {
+    color: #e74c3c;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+.titleline-icon {
+    position: relative;
+    max-width: 100px;
+    border-top: 4px double #F99700;
+    margin: 20px auto 20px;
+}
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+#send {
+	background-color: #009270;
+	border-color: #009270;
+	color: white;
+	padding: 12px 14px;
+        font-family: Merienda One;
+        
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Footer Area %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+footer.nb-footer {
+background: #05121A;
+}
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; 
+}
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; 
+}
+footer.nb-footer .about .social-media {
+margin-top: 15px; 
+}
+#media-link-6 {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	font-size: 20px;
+	color: white;
+	border: 2px solid #009270;
+	text-align: center;
+}
+#media-link-6:hover{
+    background-color: #4867AA;
+    border:2px solid#4867AA;
+}
+#media-link-7 {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	font-size: 20px;
+	color: white;
+	border: 2px solid #009270;
+	text-align: center;
+}
+#media-link-7:hover{
+    background-color: #1DA1F2;
+    border:2px solid#1DA1F2;
+}
+#media-link-8 {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	font-size: 20px;
+	color: white;
+	border: 2px solid #009270;
+	text-align: center;
+}
+#media-link-8:hover{
+    background-color: #D42E78;
+    border:2px solid#D42E78;
+}
+#media-link-9 {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	font-size: 20px;
+	color: white;
+	border: 2px solid #009270;
+	text-align: center;
+}
+#media-link-9:hover{
+    background-color: #007BB6;
+    border:2px solid#007BB6;
+}
+footer.nb-footer .footer-info-single {
+margin-top: 30px;
+}
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: uppercase;
+font-size: 16px;
+border-left: 4px solid #b78c33;
+padding-left: 5px; 
+}
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0;
+}
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #b78c33; 
+}
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; 
+}
+footer.nb-footer .copyright {
+margin-top: 15px;
+background: #05121A;
+padding: 7px 0;
+color: white; 
+}
+footer.nb-footer .copyright p {
+margin: 0;
+padding: 0; 
+}
+/*##################################### Top Bottom ############################*/
+.cd-top {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../image/backtotop.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 50px;
+    width: 50px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
